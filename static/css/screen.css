@@ -1,0 +1,50 @@
+body {
+	font-family: helvetica, arial, tahoma;
+	background-color: #f4f4f4;
+	color: #333;
+}
+
+h1 {
+	font-size: 140%;
+}
+
+#da1 {
+	overflow: hidden;
+	margin-bottom: 20px;
+	color: #777;
+}
+
+#da1 span {
+	display: block;
+	border: 1px solid #aaa;
+	padding: 8px 26px;
+	float: left;
+	margin-right: 15px;
+	background-color: #e5e5e5;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+}
+
+#da1 span:hover {
+	background-color: #bbb;
+}
+
+#time_info {
+	color: #555;
+}
+
+#prog-indicator { 
+	width: 300px;
+	border: 1px solid #ccc;	
+}
+
+#prog-indicator, #indicator {
+	height: 5px;
+}
+
+#indicator {
+	width: 0px;
+	background-color: green;
+	display: block;
+}
