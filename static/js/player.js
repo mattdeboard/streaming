@@ -1,3 +1,9 @@
+/*
+  HTML5 <audio> streamer by:
+    Todd Baker <toddlbaker@gmail.com>
+    http://www.madtimber.com
+*/
+
 document.getElementById("play").addEventListener('click', function(e) {	
 	newPlayer.playPause();		
 }, false);
